@@ -1,0 +1,24 @@
+warning: virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+note: to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+note: to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+note: for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.08s
+     Running `target/debug/task run --ip-address=192.168.112.1`
+    Finished `dev` profile [optimized] target(s) in 0.12s
+warning: virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+note: to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+note: to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+note: for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+   Compiling xdp-drop v0.1.0 (/home/rmg0070/Downloads/Tcp_Packet_Dropper/filter)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.53s
+[2024-11-23T03:10:22Z INFO  xdp_drop] Using interface: enp0s3
+[2024-11-23T03:10:25Z WARN  xdp_drop] Unknown command or incorrect number of arguments
+[2024-11-23T03:10:28Z INFO  xdp_drop] Exit command received, initiating shutdown.
+[2024-11-23T03:10:58Z INFO  xdp_drop] Application exiting.
+2024-11-23T15:01:23.847492162-05:00 - INFO - Using interface: enp0s3
+2024-11-23T15:01:34.797321023-05:00 - INFO - Blocked IP: 172.3.11.4
+2024-11-23T15:01:52.543305260-05:00 - INFO - Unblocked IP: 172.3.11.4
+2024-11-23T15:02:06.017356440-05:00 - INFO - Blocked Port: 6969
+2024-11-23T15:02:20.653794136-05:00 - INFO - Using interface: enp0s3
+2024-11-23T15:02:25.608340289-05:00 - INFO - Exit command received, initiating shutdown.
+2024-11-23T15:02:32.913142912-05:00 - INFO - Application exiting.
