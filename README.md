@@ -7,16 +7,10 @@ sudo docker pull rmg0070/tcppacketdropper:latest
 sudo docker run --privileged -it -p 80:80 --name ebpf rmg0070/tcppacketdropper:latest /bin/bash
 ```
 
-## IP BLOCKING
+## IP BLOCKING AND PORT BLOCING 
 ENTER IP THAT HAS TO BE BLOCKED 
 ```BASH
-RUST_LOG=info cargo task run --ip-address=172.20.10.2
+RUST_LOG=info cargo task run --ip-address=192.168.1.100 --port=80
 ```
 
-## PORT BLOCKING
 
-ENTER THE PORT NUMBER THAT HAS BE BLOCKED FOR INCOMMING TRAFFIC
-
-```bash
-RUST_LOG=info cargo task run --ip-address=172.20.10.2
-```
