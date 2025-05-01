@@ -18,8 +18,7 @@ This project demonstrates how to **persistently monitor and dynamically block TC
 ---
 
 ## 🧰 Features
-
-✅ Blocks **TCP packets to/from port 4040** by default  
+  
 ✅ Dynamically **blocks IPs and ports from files** `ipblock` and `portblock`  
 ✅ Logs every block event into `application.log`  
 ✅ Persistent monitoring through XDP (eBPF hook)  
